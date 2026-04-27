@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':com.arianesline.ariane.plugin.api')
+}
+
+jar {
+    archiveBaseName = 'com.arianesline.ariane.plugin.i18n.french'
+}
